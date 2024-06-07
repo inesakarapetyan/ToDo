@@ -41,11 +41,11 @@ For Windows Users
         ```sh
         pip install django 
 
-7. **Create a Django project**:
+7.**Create a Django project**:
      ```sh
      django-admin startproject myproject
 
-8. **Navigate into the project directory**:
+8.**Navigate into the project directory**:
       ```sh
      cd myproject
 
@@ -64,18 +64,18 @@ For Windows Users
 For Mac or Linux Users
 
 
-1. **Open Visual Studio Code**
+1.**Open Visual Studio Code**
    
-2. **Open Terminal**:
+2.**Open Terminal**:
    - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
-3. **Create a virtual environment**:
+3.**Create a virtual environment**:
    ```sh
    python3 -m venv venv
 
 
 4.**Activate the virtual environment**:
       ```sh
-     source ./venv/bin/activate
+      source ./venv/bin/activate
 
 5.**Upgrade pip**:
       ```sh
