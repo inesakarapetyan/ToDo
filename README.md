@@ -15,8 +15,6 @@ To-Do List where you can add things you have to the for a day and remove a to-do
 |                                                            RUN CODE                                                                                |
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-For Windows Users
-
 
 ## For Windows Users
 
@@ -61,7 +59,7 @@ For Windows Users
 
 
 
-For Mac or Linux Users
+## For Mac or Linux Users
 
 
 1.**Open Visual Studio Code**
