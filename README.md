@@ -22,53 +22,46 @@ To-Do List where you can add things you have to the for a day and remove a to-do
    
 2. **Open Terminal**:
    - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
-3. **Create a virtual environment**:
+   3.**Create a virtual environment**:
    
-   ```sh
-   
+   ```bash
    py -m venv venv
 
 
 4.**Activate the virtual environment**:
      
-      ```sh
+      ```bash
       
      .\venv\Scripts\activate
 
 5.**Upgrade pip**:
      
-      ```sh
-      
+      ```bash
        py -m pip install --upgrade pip 
 
 6.**Install Django**:
        
-        ```sh
-        
+        ```bash
         pip install django 
 
 7.**Create a Django project**:
     
-     ```sh
-     
+     ```bash
      django-admin startproject myproject
 
 8.**Navigate into the project directory**:
       
-      ```sh
+      ```bash
      cd myproject
 
 9.**Create a Django app**:
-
-     ```sh
-     
-     python manage.py startapp main
+     ```bash
+      python manage.py startapp main
 
 
 10.**Start the Django development server**:
     
-     ```sh
-     
+     ```bash
      python manage.py runserver
 
 
@@ -83,23 +76,18 @@ To-Do List where you can add things you have to the for a day and remove a to-do
    - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
 
 
-3.**Create a virtual environment**:
+3.**Create a virtual environment:**
   
-   ```sh
+   ```bash
+     python3 -m venv venv
 
-  python3 -m venv venv
 
-
-4.**Activate the virtual environment:**
-
-    ```sh
-
+4.**Activate the virtual environment**:
+   ```bash
    source ./venv/bin/activate
 
 5.**Upgrade pip:**
-
       ```sh
-
       python3 -m pip install --upgrade pip 
 
 6.**Install Django:**
@@ -136,13 +124,12 @@ To-Do List where you can add things you have to the for a day and remove a to-do
 
 
 
-**Notes**
-      ```sh
+##Notes
      · Ensure that you have Python and Visual Studio Code installed on your machine.
      · The above commands should be run in the integrated terminal within Visual Studio Code.
 
 
-**Additional Resources**
+##Additional Resources
      ```sh
      · Django Documentation
      · Python Documentation
