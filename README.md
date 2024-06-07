@@ -18,122 +18,36 @@ To-Do List where you can add things you have to the for a day and remove a to-do
 
 ## For Windows Users
 
-1. **Open Visual Studio Code**
-   
-2. **Open Terminal**:
-   - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
-3.**Create a virtual environment**:
-   
-   ```bash
-   py -m venv venv
-
-
-4.**Activate the virtual environment**:
-     
-   ```bash
-   .\venv\Scripts\activate
-
-5.**Upgrade pip**:
-     
-   ```bash
-   py -m pip install --upgrade pip 
-
-6.**Install Django**:
-       
-   ```bash
-   pip install django 
-
-7.**Create a Django project:**
-    
-     ```bash
-     django-admin startproject myproject
-
-8.**Navigate into the project directory**:
-      
-      ```bash
-     cd myproject
-
-9.**Create a Django app**:
-     ```bash
-      python manage.py startapp main
-
-
-10.**Start the Django development server**:
-    
-     ```bash
-     python manage.py runserver
-
-
-
-
-## For Mac or Linux Users
-
-
 1.**Open Visual Studio Code**
-   
-2.**Open Terminal**:
-   - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
 
+2.**Open Terminal:**
+Open the integrated terminal in VS Code by navigating to 'View > Terminal' or using the shortcut 'Ctrl + ~' (backtick).
 
-3.**Create a virtual environment:**
-  
-   ```bash
-     python3 -m venv venv
-
-
+3.**Create a virtual environment**:
+```sh
+   py -m venv venv
 4.**Activate the virtual environment**:
-   ```bash
-   source ./venv/bin/activate
+ ```sh
+.\venv\Scripts\activate
 
-5.**Upgrade pip:**
-      ```sh
-      python3 -m pip install --upgrade pip 
-
-6.**Install Django:**
-
-       ```sh
-
-        pip install django 
-
-7. **Create a Django project:**
-
-   ```sh
-
-    django-admin startproject myproject
-
-8. **Navigate into the project directory**:
-
-      ```sh
-
-      cd myproject
-
-9.**Create a Django app**:
-
-      ```sh
-
-      python3 manage.py startapp main
-
-
-10.**Start the Django development server**:
-
-      ```sh
-
-      python3 manage.py runserver
-
-
-
-
-##Notes
-     · Ensure that you have Python and Visual Studio Code installed on your machine.
-     · The above commands should be run in the integrated terminal within Visual Studio Code.
-
-
-##Additional Resources
-     ```sh
-     · Django Documentation
-     · Python Documentation
-
-
+5.py -m pip install --upgrade pip    # Upgrade pip
+6.pip install django    # Install Django
+7.django-admin startproject myproject      # Create a Django project
+8.cd myproject              # Navigate into the project directory
+9.python manage.py startapp main   #Create a project
+10.python manage.py runserver         # Start the Django development server
+For Mac or Linux Users
+1.Open Visual Studio Code
+2.Open Terminal:
+Open the integrated terminal in VS Code by navigating to 'View > Terminal' or using the shortcut 'Ctrl + ~' (backtick).
+3.python3 -m venv venv             # Create a virtual environment
+4.source ./venv/bin/activate            # Activate the virtual environment
+5.python3 -m pip install --upgrade pip    # Upgrade pip
+6.pip install django         # Install Django
+7.django-admin startproject myproject     # Create a Django project
+8.cd myproject              # Navigate into the project directory
+9.python3 manage.py startapp main   #Create a project
+10.python3 manage.py runserver         # Start the Django development server
  
 
 
