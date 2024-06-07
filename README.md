@@ -27,12 +27,9 @@ Open the integrated terminal in VS Code by navigating to 'View > Terminal' or us
 ```sh
    py -m venv venv
 4.**Activate the virtual environment**:
-```
+```sh
 .\venv\Scripts\activate
-```
-```
 5.py -m pip install --upgrade pip    # Upgrade pip
-```
 6.pip install django    # Install Django
 7.django-admin startproject myproject      # Create a Django project
 8.cd myproject              # Navigate into the project directory
