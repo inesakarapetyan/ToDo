@@ -22,7 +22,7 @@ To-Do List where you can add things you have to the for a day and remove a to-do
    
 2. **Open Terminal**:
    - Navigate to `View > Terminal` or use the shortcut `Ctrl + ~` (backtick).
-   3.**Create a virtual environment**:
+3.**Create a virtual environment**:
    
    ```bash
    py -m venv venv
@@ -30,21 +30,20 @@ To-Do List where you can add things you have to the for a day and remove a to-do
 
 4.**Activate the virtual environment**:
      
-      ```bash
-      
-     .\venv\Scripts\activate
+   ```bash
+   .\venv\Scripts\activate
 
 5.**Upgrade pip**:
      
-      ```bash
-       py -m pip install --upgrade pip 
+   ```bash
+   py -m pip install --upgrade pip 
 
 6.**Install Django**:
        
-        ```bash
-        pip install django 
+   ```bash
+   pip install django 
 
-7.**Create a Django project**:
+7.**Create a Django project:**
     
      ```bash
      django-admin startproject myproject
